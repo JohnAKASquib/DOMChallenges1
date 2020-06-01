@@ -24,7 +24,7 @@ list.appendChild(z)
 //loop through all lis inside ol tag and make bg color=green
 const liAndOl=document.querySelectorAll("ol li")
 for(i = 0; i <liAndOl.length; i++){
-    liAndOl[i].getElementsByClassName.backgroundColor = "green";
+    liAndOl[i].style.backgroundColor = "green";
 }
 //remove footer
 document.querySelector(".footer").remove()
