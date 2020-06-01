@@ -5,7 +5,7 @@ document.querySelector('#container');
 //select all list items with class second
 document.getElementsByClassName('second');
 //select list item with class of third only inside ol tag
-document.querySelector("ol.third");
+document.querySelector('ol').getElementsByClassName('third');
 //give section with id of container the text hello
 var x=document.getElementById('container')
 x.append('Hello!')
